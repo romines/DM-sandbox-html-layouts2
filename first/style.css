@@ -7,6 +7,7 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contain {
@@ -45,7 +46,9 @@ div.square {
 .slate {
   background-color: rgb(62, 62, 62);
 }
-
+.row.two {
+  margin: 1%;
+}
 .two p {
   max-width: 100%;
 }
