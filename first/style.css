@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.contain {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1%;
+}
+
+div {
+  margin: 1%;
+}
+
+.row {
+  margin: 0;
+}
+
+.row.one {
+  height: 20%;
+}
+
+div.square {
+  /*display: inline-block;*/
+  float: left;
+  width: 31.33%;
+  height: 92%;
+
+}
+
+.red {
+  background-color: rgb(236, 71, 71);
+}
+.blue {
+  background-color: rgb(73, 103, 235);
+}
+.slate {
+  background-color: rgb(62, 62, 62);
+}
+
+.two p {
+  max-width: 100%;
+}
+
+.row.three {
+  height: 40%;
+  margin-bottom: 1%;
+}
+.three div:first-child {
+  width: 32%;
+  margin-right: 0;
+}
+.three div:last-child {
+  width: 66%;
+  margin-left: 0;
+}
+
+.row.four {
+  height: 19%;
+  position: relative;
+}
+.four div:first-child {
+  width: 66%;
+  margin-right: 0;
+}
+.four div:nth-child(2) {
+  width: 32%;
+  margin-left: 0;
+}
+.four .slate {
+  position: absolute;
+  right: 10.5%;
+  width: 11%;
+}
